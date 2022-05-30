@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Circular Spotify Tx T Black';
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: black;
+    color: white;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.logo {
+    width: 132px;
+    height: 40px;
+    margin-right: 350px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu-item {
+    padding-left: 34px;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.menu-item:hover {
+    color: #1ed760;
+    cursor: pointer;
+}
+
+.menu li:nth-child(3) {
+    padding-right: 34px;
+    border-right: 1px solid white;
+}
+
+.menu li:nth-child(4) {
+    padding-left: 34px;
+}
+
+.showcase {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: url("../img/bursts-tablet.png") center center/cover;
+    background-size: 85%;
+    background-position: -100px 50%;
+    background-color: rgb(41, 65, 171);
+    color: #1ed760;
+    padding-bottom: 130px;
+}
+
+.showcase-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase-items h1 {
+    font-size: 156px;
+    line-height: 166px;
+    width: 1000px;
+    font-weight: 700;
+    letter-spacing: -0.6rem;
+    margin-top: 14.7%;
+    margin-bottom: 30px;
+}
+
+.showcase-items p {
+    width: 800px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.btn-main {
+    background-color: #1ed760;
+    color: rgb(41, 65, 171);
+    border: none;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 40px;
+    width: 227px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    transition: 33ms ease 0s;
+}
+
+.btn-main:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.main-footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 85%;
+    margin: auto;
+}
+
+.footer-logo {
+    width: 132px;
+    height: 40px;
+}
+
+.footer-logo:hover {
+    cursor: pointer;
+}
+
+.footer-menu p {
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    font-family: 'Circular Spotify Tx T Black', 'Helvetica', 'Arial', sans-serif;
+    margin: 20px 0;
+}
+
+.footer-item {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    padding-top: 3px;
+    padding-bottom: 15px;
+}
+
+.footer-item:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-links div {
+    border-radius: 50%;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links i:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.footer-info {
+    background-color: black;
+    color: white;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.footer-info-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    margin-right: 45px;
+    padding-left: 15px;
+    color: #919496;
+}
+
+.footer-info-items li {
+    list-style: none;
+    padding: 12px 0;
+}
+
+.info-item:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.footer-rights {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #919496;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 12px;
+}
+
+.location:hover {
+    cursor: pointer;
+    color: #1ed760;
+}
+
+.flag {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+}
+
